@@ -1,331 +1,545 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <title></title>
-    <link rel="icon" href="img" />
+    <title>3D Cozy Simulation</title>
+    <link rel="icon" href="img/1.png" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div id="cookie-popup" class="class-cookie-popup">
-      <div class="class-cookie-popup-container">
-        <p class="class-cookie-popup-text-two">
-          We use cookies to improve your experience on our website. By browsing
-          this website, you agree to our use of cookies.
-        </p>
-        <div class="class-cookie-button-container">
-          <button id="accept-cookies" class="class-cookie-button">
-            Accept cookies
-          </button>
-          <button id="decline-cookies" class="class-cookie-button">
-            Decline Cookies
-          </button>
-        </div>
-      </div>
-    </div>
-    <header class="class-header">
-      <div class="class-header-background"></div>
-      <nav class="class-navigation">
-        <ul class="class-navigation-list">
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">
+    <header class="p-p-header">
+      <div class="p-p-header-background"></div>
+      <nav class="p-p-navigation">
+        <ul class="p-p-navigation-list">
+          <li class="p-p-navigation-item">
+            <a href="/" class="p-p-navigation-link">
               <img
-                class="class-title-img class-navigation-img"
+                class="p-p-title-img p-p-navigation-img"
                 alt="logo"
-                src="img"
-                style=""
+                src="img/Logo container.png"
+                style="height: 40px"
               />
             </a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">Home</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#about" class="class-navigation-link">About the Game</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#why" class="class-navigation-link">Why Us?</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#uniqueness" class="class-navigation-link"
-              >Our Uniqueness</a
-            >
+          <li class="p-p-navigation-item">
+            <a href="/" class="p-p-navigation-link">Home</a>
           </li>
 
-          <li class="class-navigation-item">
-            <a href="/#how" class="class-navigation-link">How to Play</a>
+          <li class="p-p-navigation-item">
+            <a href="/#why" class="p-p-navigation-link">About the Island</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#characters" class="class-navigation-link">Characters</a>
+          <li class="p-p-navigation-item">
+            <a href="/#uniqueness" class="p-p-navigation-link">Gameplay</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#reviews" class="class-navigation-link">User Reviews</a>
+
+          <li class="p-p-navigation-item">
+            <a href="/#how" class="p-p-navigation-link">Features</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#faq" class="class-navigation-link">FAQ</a>
+          <li class="p-p-navigation-item">
+            <a href="/#about" class="p-p-navigation-link">Progression</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#gallery" class="class-navigation-link">Gallery</a>
+          <li class="p-p-navigation-item">
+            <a href="/#reviews" class="p-p-navigation-link">Reviews</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#features" class="class-navigation-link">Features</a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/policy.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Privacy Policy
-            </a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/terms.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Terms and Conditions
-            </a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/cookies.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Cookies Policy
-            </a>
+          <li class="p-p-navigation-item">
+            <a href="/#faq" class="p-p-navigation-link">FAQ</a>
           </li>
         </ul>
 
-        <div class="class-header-button-wrapper">
-          <a href="/" class="class-policy-terms-header-icon-menu">
+        <div class="p-p-header-button-wrapper">
+          <a href="/" class="p-p-policy-terms-header-icon-menu">
             <img
               href="/"
-              class="class-title-img"
+              class="p-p-title-img"
               alt="logo"
-              src="img"
-              style=""
+              src="img/Logo container.png"
+              style="height: 40px"
             />
           </a>
 
           <button
             type="button"
-            class="class-header-icon-button"
+            class="p-p-header-icon-button"
             data-menu-button
           >
-            <img
-              class="class-header-icon class-header-icon-menu"
-              src="img/header/menu.png"
-              style=""
-              alt="menu "
-            />
-            <img
-              class="class-header-icon class-header-icon-close"
-              src="img/header/menu (1).png"
-              alt="close"
-            />
+            <svg
+              class="p-p-header-icon p-p-header-icon-menu"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_442)">
+                <path
+                  d="M4 6H20"
+                  stroke="#F8F8FF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4 12H20"
+                  stroke="#F8F8FF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4 18H20"
+                  stroke="#F8F8FF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_442">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <svg
+              class="p-p-header-icon p-p-header-icon-close"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_784)">
+                <path
+                  d="M18 6L6 18"
+                  stroke="#F8F8FF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 6L18 18"
+                  stroke="#F8F8FF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_784">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
           </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="class-home" id="home">
-        <div class="class-home-container">
-          <div class="class-home-container-top">
-            <h1>
-              <img class="class-home-title-img" src="/img/home" alt="" />
-            </h1>
-            <p class="class-home-title">Merge Food - Chef Decoration</p>
-            <p class="class-home-text">
-              Cook, Merge, and Create Your Dream Kitchen!
+      <section class="p-p-home" id="home">
+        <div class="p-p-home-container">
+          <div class="p-p-home-container-top">
+            <h1 class="p-p-home-title">Keep the light burning</h1>
+            <p class="p-p-home-text">
+              Fix the glass, tune the radio, and watch the waves. A low - stakes
+              restoration game for people who just need a break.
             </p>
-            <a class="class-home-link" href="#" target="_blank">
-              <img class="class-home-img" src="./img/home" alt="google play" />
-            </a>
+            <p class="p-p-home-text-two">
+              Most simulators bury you in quests. Here, the main quest is just
+              silence. You need to scrub the lighthouse lens, patch up the
+              rowboat, and maybe plant some potatoes by the doorstep. It’s a
+              game about the process, not the grind.
+            </p>
           </div>
         </div>
       </section>
-      <section class="class-about" id="about">
-        <div class="class-about-container">
-          <h2 class="class-about-title">About the Game</h2>
-          <p class="class-about-text">
-            <span class="class-about-text-bold"
-              >Merge Food - Chef Decoration</span
-            >
-            combines the
-          </p>
-        </div>
-      </section>
-      <article class="class-why" id="why">
+      <article class="p-p-why" id="why">
         <span style="display: none"
-          >Generated: 2025-04-12, Hash: class-qk-class-39fd7x</span
+          >Generated: 2026-05-30, Hash: p-p-qk-p-p-39fd7x</span
         >
 
-        <div class="class-why-container">
-          <h2 class="class-about-title">Why Us?</h2>
-          <dl class="class-why-list">
-            <div class="class-why-item">
-              <figure class="class-why-img">
-                <img class="class-why-img" src="img/why" alt="" />
-              </figure>
-              <div>
-                <dt class="class-why-text-bold">Fun and Relaxing:</dt>
-                <dd class="class-why-text">Perfect for unwinding after a</dd>
-              </div>
+        <div class="p-p-why-container">
+          <h2 class="p-p-about-title p-p-about-title-why">
+            What you’ll actually do
+          </h2>
+          <dl class="p-p-why-list">
+            <div class="p-p-why-item">
+              <dt class="p-p-why-text-bold">
+                <figure class="p-p-why-img">
+                  <img
+                    class="p-p-why-img"
+                    src="img/sparkle-highlight 1.png"
+                    alt=""
+                  />
+                </figure>
+              </dt>
+              <dd class="p-p-why-text">
+                It’s not just about the big lamp at the top.
+              </dd>
+            </div>
+            <div class="p-p-why-item">
+              <dt class="p-p-why-text-bold">
+                <figure class="p-p-why-img">
+                  <img
+                    class="p-p-why-img"
+                    src="img/sparkle-highlight 1.png"
+                    alt=""
+                  />
+                </figure>
+              </dt>
+              <dd class="p-p-why-text">
+                You’ll spend time fixing the old shortwave radio to hear weather
+                reports, or scrubbing rust off the spiral staircase.
+              </dd>
+            </div>
+            <div class="p-p-why-item">
+              <dt class="p-p-why-text-bold">
+                <figure class="p-p-why-img">
+                  <img
+                    class="p-p-why-img"
+                    src="img/sparkle-highlight 1.png"
+                    alt=""
+                  />
+                </figure>
+              </dt>
+              <dd class="p-p-why-text">
+                Sometimes, the game just asks you to sit on the pier and watch
+                the tide come in to "recharge" your character’s focus.
+              </dd>
+            </div>
+            <div class="p-p-why-item">
+              <dt class="p-p-why-text-bold">
+                <figure class="p-p-why-img">
+                  <img
+                    class="p-p-why-img"
+                    src="img/sparkle-highlight 1.png"
+                    alt=""
+                  />
+                </figure>
+              </dt>
+              <dd class="p-p-why-text">
+                There’s a quiet satisfaction in finally getting the foghorn to
+                work or seeing your first patch of potatoes actually sprout in
+                the salty air.
+              </dd>
+            </div>
+            <div class="p-p-why-item">
+              <dt class="p-p-why-text-bold">
+                <figure class="p-p-why-img">
+                  <img
+                    class="p-p-why-img"
+                    src="img/sparkle-highlight 1.png"
+                    alt=""
+                  />
+                </figure>
+              </dt>
+              <dd class="p-p-why-text">
+                These small chores are what make the island feel like it’s
+                actually yours.
+              </dd>
             </div>
           </dl>
         </div>
       </article>
-      <section class="class-uniqueness" id="uniqueness">
-        <div class="class-uniqueness-container">
-          <h2 class="class-about-title">Our Uniqueness</h2>
-          <div class="class-uniqueness-list">
-            <div class="class-uniqueness-item">
-              <img class="class-uniqueness-img" src="" alt="" />
-              <p class="class-uniqueness-text-bold">1. Food Fusion Fun</p>
-              <p class="class-uniqueness-text">
-                Discover unexpected recipes and combinations by merging
-                ingredients.
+      <section class="p-p-uniqueness" id="uniqueness">
+        <div class="p-p-uniqueness-container">
+          <h2 class="p-p-about-title" style="text-align: left">
+            The "How-To"
+          </h2>
+          <h2 class="p-p-about-title-two">
+            Everything is straightforward here - no complex key combos or hidden
+            menus.
+          </h2>
+          <div class="p-p-uniqueness-list">
+            <div class="p-p-uniqueness-item">
+              <img
+                class="p-p-uniqueness-img"
+                src="/img/uniqueness/1 (1).png"
+                alt=""
+              />
+              <p class="p-p-uniqueness-text-bold">Click to clean</p>
+              <p class="p-p-uniqueness-text">
+                See dirt? Scrub it. It’s oddly <br />
+                addictive.
+              </p>
+            </div>
+            <div class="p-p-uniqueness-item">
+              <img
+                class="p-p-uniqueness-img"
+                src="/img/uniqueness/1 (2).png"
+                alt=""
+              />
+              <p class="p-p-uniqueness-text-bold">Scavenge</p>
+              <p class="p-p-uniqueness-text">
+                Pick up driftwood on the shore after a storm. You’ll need it for
+                the fire and basic repairs.
+              </p>
+            </div>
+            <div class="p-p-uniqueness-item">
+              <img
+                class="p-p-uniqueness-img"
+                src="/img/uniqueness/1 (3).png"
+                alt=""
+              />
+              <p class="p-p-uniqueness-text-bold">Light it up</p>
+              <p class="p-p-uniqueness-text">
+                Your main goal is getting the lighthouse lantern spinning again.
+                Once it’s bright, ships bring in better supplies.
+              </p>
+            </div>
+            <div class="p-p-uniqueness-item">
+              <img
+                class="p-p-uniqueness-img"
+                src="/img/uniqueness/1 (4).png"
+                alt=""
+              />
+              <p class="p-p-uniqueness-text-bold">Listen</p>
+              <p class="p-p-uniqueness-text">
+                The sound of the waves is 50% of the game. Seriously, play with
+                headphones.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="class-how" id="how">
-        <div class="class-how-container">
-          <h2 class="class-about-title">How to Play</h2>
-
-          <ul class="class-how-list">
-            <li class="class-how-item">
-              <img
-                class="class-how-img"
-                src="/img/how/image (1).png"
-                alt="image"
-              />
-              <p class="class-how-text-bold">Merge Ingredients:</p>
-              <p class="class-how-text">
-                Drag and merge identical food items to discover new recipes.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-characters" id="characters">
-        <div class="class-characters-container">
-          <h2 class="class-about-title">Characters</h2>
-          <ul class="class-characters-list">
-            <li class="class-characters-item">
-              <img class="class-characters-img" src="" alt="" />
-              <p class="class-characters-text-bold">Chef Bella:</p>
-              <p class="class-characters-text">
-                A cheerful pastry chef who inspires creativity in the kitchen
-                with her love for desserts.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-reviews" id="reviews">
-        <div class="class-reviews-container">
-          <h2 class="class-about-title">Reviews</h2>
-          <ul class="class-reviews-list">
-            <li class="class-reviews-item">
-              <div class="class-reviews-item-top">
+      <section class="p-p-how" id="how">
+        <div class="p-p-how-container">
+          <h2 class="p-p-about-title">Why this is actually cool</h2>
+          <div class="p-p-how-list-three">
+            <ul class="p-p-how-list">
+              <li class="p-p-how-item">
                 <img
-                  class="class-reviews-img"
-                  src="/img/reviews/image 12.png"
+                  class="p-p-how-img"
+                  src="/img/how/2 (1).png"
                   alt="image"
                 />
-                <p class="class-reviews-text-bold">GourmetGamer:</p>
-              </div>
-              <p class="class-reviews-text">
-                "This game is so addictive! I love discovering new recipes and
-                decorating my kitchen."
-              </p>
-            </li>
-          </ul>
+                <p class="p-p-how-text-bold">Procedural Weather</p>
+                <p class="p-p-how-text">
+                  A storm isn't just a rain filter on the screen. It actually
+                  washes up junk on the shoe that you can salvage into useful
+                  tools.
+                </p>
+              </li>
+              <li class="p-p-how-item">
+                <img
+                  class="p-p-how-img"
+                  src="/img/how/2 (2).png"
+                  alt="image"
+                />
+                <p class="p-p-how-text-bold">Real-time Clock</p>
+                <p class="p-p-how-text">
+                  If you play at 9 PM, it’s night on the island to. The
+                  lighthouse beam looks way cooler in the dark anyway.
+                </p>
+              </li>
+            </ul>
+            <ul class="p-p-how-list p-p-how-list-two">
+              <li class="p-p-how-item">
+                <img
+                  class="p-p-how-img"
+                  src="/img/how/2 (3).png"
+                  alt="image"
+                />
+                <p class="p-p-how-text-bold">No Leaderboards</p>
+                <p class="p-p-how-text">
+                  We don’t care what level you are. There’s no one to
+                  competewith except your own urge to paint the fence.
+                </p>
+              </li>
+              <li class="p-p-how-item">
+                <img
+                  class="p-p-how-img"
+                  src="/img/how/2 (4).png"
+                  alt="image"
+                />
+                <p class="p-p-how-text-bold">Battery Friendly</p>
+                <p class="p-p-how-text">
+                  We optimized the water shaders so your phone doesn't turn into
+                  a space heater after 15 minutes of play.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section class="class-faq" id="faq">
-        <div class="class-faq-container">
-          <h2 class="class-about-title">FAQ</h2>
-          <ul class="class-faq-list">
-            <li class="class-faq-item">
-              <div class="class-faq-question" onclick="toggleAnswer(this)">
-                <span>Is "Merge Food - Chef Decoration" free to play?</span>
-                <button class="class-toggle-button">
-                  <img src="/img/faq/icon.png" alt="Toggle" />
-                </button>
-              </div>
-              <div class="class-faq-answer">
-                Yes, the game is free to play with optional in-app purchases for
-                special items.
-              </div>
-            </li>
-          </ul>
+      <section class="p-p-about" id="about">
+        <div class="p-p-about-container">
+          <h2 class="p-p-about-title">What’s the point?</h2>
+          <p class="p-p-about-text">
+            At first, you’re sleeping in a sleeping bag on the lighthouse floor.
+            Gradually, you patch the roof, clear the overgrown garden, and maybe
+            even adopt a stray cat (if you can find something to feed it). The
+            "difficulty" isn't about winning; it’s about maintaining the order
+            you’ve built. Once the lighthouse is fully restored, you start
+            getting letters from ship captains you helped guide through the fog.
+          </p>
         </div>
       </section>
-
-      <section class="class-gallery" id="gallery">
-        <div class="class-gallery-container">
-          <h2 class="class-about-title">Gallery</h2>
-
-          <ul class="class-gallery-list">
-            <li class="class-gallery-item">
+      <section class="p-p-reviews" id="reviews">
+        <div class="p-p-reviews-container">
+          <h2 class="p-p-about-title">WHAT TESTERS ARE SAYING</h2>
+          <ul class="p-p-reviews-list">
+            <li class="p-p-reviews-item">
               <img
-                class="class-gallery-image"
-                src="./img/gallery/3.png"
-                alt="gallery image"
+                class="p-p-reviews-img-one"
+                src="/img/reviews/Mask group.png"
+                alt="image"
               />
+              <p class="p-p-reviews-text">
+                I thought this would be boring at first -like, how much cleaning
+                can one guy do? But an hour later I realized I’d totally stopped
+                thinking about my work deadlines. It’s like digital meditation.
+                The sound of footsteps on the gravel is spot on; you really feel
+                like you’re out there.
+              </p>
+              <div class="p-p-reviews-item-top">
+                <img
+                  class="p-p-reviews-img"
+                  src="/img/reviews/3 (1).png"
+                  alt="avatar"
+                />
+                <p class="p-p-reviews-text-bold">Mark D.</p>
+              </div>
+            </li>
+            <li class="p-p-reviews-item">
+              <img
+                class="p-p-reviews-img-one"
+                src="/img/reviews/Mask group.png"
+                alt="image"
+              />
+              <p class="p-p-reviews-text">
+                I love that the game doesn't nag me. No annoying push
+                notifications like 'Your energy is refilled!' or whatever. I
+                just log in when I have time, paint one wall, and log out. The
+                low - poly style is super clean and doesn't strain my eyes.
+              </p>
+              <div class="p-p-reviews-item-top">
+                <img
+                  class="p-p-reviews-img"
+                  src="/img/reviews/3 (3).png"
+                  alt="avatar"
+                />
+                <p class="p-p-reviews-text-bold">Sarah P.</p>
+              </div>
+            </li>
+            <li class="p-p-reviews-item">
+              <img
+                class="p-p-reviews-img-one"
+                src="/img/reviews/Mask group.png"
+                alt="image"
+              />
+              <p class="p-p-reviews-text">
+                The wave physics are something else. I spent ten minutes just
+                watching the tide come in. The crafting makes sense, too: if you
+                need planks, you go to the beach and break down old crates
+                instead of hunting for 'magic crystals.' Perfect for the subway.
+              </p>
+              <div class="p-p-reviews-item-top">
+                <img
+                  class="p-p-reviews-img"
+                  src="/img/reviews/Avatar Container.png"
+                  alt="avatar"
+                />
+                <p class="p-p-reviews-text-bold">Leo K.</p>
+              </div>
             </li>
           </ul>
-          <div class="class-gallery-button-container">
-            <button class="class-gallery-button class-gallery-list-left">
+          <div class="p-p-gallery-button-container">
+            <button class="p-p-gallery-button p-p-reviews-list-left">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="p-p-gallery-button-icon"
+                src="img/reviews/circle-chevron-down 2.png"
                 alt="left button"
               />
             </button>
-            <button class="class-gallery-button class-gallery-list-right">
+            <button class="p-p-gallery-button p-p-reviews-list-right">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="p-p-gallery-button-icon"
+                src="img/reviews/circle-chevron-down 1.png"
                 alt="right button"
               />
             </button>
           </div>
         </div>
       </section>
-      <section class="class-features" id="features">
-        <div class="class-features-container">
-          <h2 class="class-about-title">Features</h2>
-
-          <ul class="class-features-list">
-            <li class="class-features-item">
-              <p class="class-features-text-bold">Daily Quests</p>
-              <img
-                class="class-features-img"
-                src="/img/features/image (2).png"
-                alt="image"
-              />
-              <p class="class-features-text">
-                Complete tasks for extra rewards.
-              </p>
+      <section class="p-p-faq" id="faq">
+        <div class="p-p-faq-container">
+          <h2 class="p-p-about-title">COMMON QUESTIONS</h2>
+          <ul class="p-p-faq-list">
+            <li class="p-p-faq-item">
+              <div class="p-p-faq-question" onclick="toggleAnswer(this)">
+                <span>Is this another "pay-to-win" trap?</span>
+                <button class="p-p-toggle-button">
+                  <img src="/img/chevron-down 1.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="p-p-faq-answer">
+                No, we hate those games as much as you do. There’s no "energy"
+                to buy or timers you have to pay to skip. We’re planning to add
+                a few cosmetic packs later (like different lighthouse colors)
+                just to keep the lights on here at the studio, but the core game
+                is open to everyone from the start.
+              </div>
+            </li>
+            <li class="p-p-faq-item">
+              <div class="p-p-faq-question" onclick="toggleAnswer(this)">
+                <span>Will it run on my old phone?</span>
+                <button class="p-p-toggle-button">
+                  <img src="/img/chevron-down 1.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="p-p-faq-answer">
+                We’ve been testing this on 4 - year - old devices and it’s
+                holding up fine. You can toggle off the complex water
+                reflections in the settings if you feel things getting sluggish.
+                Just make sure you’ve got about half a gig of space free for the
+                cache.
+              </div>
+            </li>
+            <li class="p-p-faq-item">
+              <div class="p-p-faq-question" onclick="toggleAnswer(this)">
+                <span>Can I play offline?</span>
+                <button class="p-p-toggle-button">
+                  <img src="/img/chevron-down 1.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="p-p-faq-answer">
+                Yes, that was one of our main rules during development. The game
+                is fully offline. You only need the internet if you want to
+                cloud - sync your save to another device or download an update.
+                Other than that, you’re good to go anywhere.
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
+    <footer class="p-p-footer" style="margin: auto; background: #0f1b2d">
+      <div class="p-p-footer-container">
+        <div class="p-p-footer-wrapper">
+          <a class="p-p-footer-wrapper-one" href="mailto:team@plainshore.pro">
+            <img class="p-p-footer-img" src="/img/1.png" alt="button" /><span
+              >team@plainshore.pro</span
+            >
+          </a>
 
+          <div class="p-p-footer-wrap">
+            <a class="p-p-footer-text" href="/policy.html">Privacy Policy</a>
+            <a class="p-p-footer-text" href="/terms.html"
+              >Terms of Service
+            </a>
+          </div>
+        </div>
+        <p class="p-p-footer-copyright">© 2026 plainshore.pro</p>
+      </div>
+    </footer>
     <script src="js/mobile-menu.js"></script>
-    <script src="js/jquery-loc-class-0.js"></script>
+    <script src="js/jquery-loc-p-p-0.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
   </body>
